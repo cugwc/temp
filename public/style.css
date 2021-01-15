@@ -1,0 +1,203 @@
+body {
+  /*background-image: linear-gradient(to bottom, white, #91c3e0, white);*/
+  background-color: #b9ebe4;
+}
+
+nav {
+  background-color: aliceblue;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/*styling for index.html*/
+
+.nav {
+  height: 10vh;
+  width: 100vw;
+}
+.title {
+  height: 90vh;
+  width: 100%;
+}
+
+.title h1,
+h2 {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 7rem;
+}
+
+.navbar {
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+button {
+  max-height: 100%;
+  width: 10rem;
+}
+
+.nav img {
+  height: 10vh;
+  width: auto;
+}
+
+.photos img {
+  object-fit: cover;
+}
+
+.goals #header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  color: #205471;
+}
+
+div#about {
+  background-color: #b9ebe4;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.goals #descrip {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+#mission .mission {
+  font-family: "Bebas Neue", cursive;
+  color: #205471;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+#mission .missions {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+#mission span {
+  color: #205471;
+}
+
+div#mission {
+  background-color: white;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+div#contact {
+  padding: 5rem 10rem;
+}
+
+/*members.html*/
+header.team {
+  height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../public/Images/banner/managingteam.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 100vw;
+}
+
+header.team h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+div.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #b9ebe4;
+}
+
+.theteam .header {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.header h2 {
+  font-size: 4rem;
+  color: darkcyan;
+}
+
+.theteam h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.member_pictures {
+  width: 100%;
+  height: 70%;
+}
+
+.box {
+  height: 87vh;
+  border: 3px darkcyan solid;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+div.bio {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.box h3 {
+  font-family: "Bebas Neue", cursive;
+  border-bottom: 3px darkcyan dotted;
+}
+.box h5 {
+  font-family: "Lato", sans-serif;
+  color: #424647;
+}
+
+/*faq*/
+.faq {
+  padding-top: 5rem;
+}
+
+.faq h1 {
+  font-size: 3rem;
+  font-family: "Bebas Neue", cursive;
+  color: darkcyan;
+}
+
+hr {
+  border: 2px darkcyan solid;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.question {
+  font-family: "Lato", sans-serif;
+  color: darkcyan;
+  border-bottom: 3px #f7d80c dotted;
+  margin-bottom: 1rem;
+}
+
+.answer {
+  font-family: "Roboto", sans-serif;
+  color: #424647;
+}
