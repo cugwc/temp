@@ -1,7 +1,20 @@
 body {
   background-image: linear-gradient(to bottom, white, #91c3e0);
 }
+a:link {
+  text-decoration: solid;
+  color: #205471;
+}
 
+a:hover {
+  text-decoration: underline;
+  color: #205471;
+}
+
+a:visited {
+  text-decoration: solid;
+  color: #205471;
+}
 img {
   width: 100%;
   max-height: 100%;
